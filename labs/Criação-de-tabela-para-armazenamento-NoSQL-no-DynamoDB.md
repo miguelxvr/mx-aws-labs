@@ -39,12 +39,14 @@ export FLASK_APP=app.py
 flask run --host=0.0.0.0 --port 8080
 ```
 
-5. Testar o acesso ao serviço via browser do computador local e fazer upload de algumas imagens para popular a tabela:
+* Você pode verificar se as chaves estão corretamente registradas com o comando `aws configure list`. Que mostram a `ACCESS_KEY` e a `SECRET_ACCESS_KEY`.
+
+6. Testar o acesso ao serviço via browser do computador local e fazer upload de algumas imagens para popular a tabela:
 
 http://[ip-publico-vm]:8080
 
 Obs: necessário liberar a porta TCP 8080 no Security Group (firewall) da máquina virtual.
 
 
-6. Entrar novamente na console do serviço DynamoDB e listar o conteúdo da tabela através da opção "Explore table items".
+7. Entrar novamente na console do serviço DynamoDB e listar o conteúdo da tabela através da opção "Explore table items".
 
