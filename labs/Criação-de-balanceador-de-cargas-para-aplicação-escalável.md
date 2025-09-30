@@ -1,7 +1,7 @@
 
 ## Lançar instâncias de VM a partir de imagens AMIs
 
-1. Criar uma imagem (AMI) da VM configurada na [etapa anterior](https://github.com/mvneves/Flask-AWS-Example/wiki/Cria%C3%A7%C3%A3o-de-buckets-para-armazenamento-escal%C3%A1vel-no-S3#parte-4-utilizar-o-servi%C3%A7o-s3-via-python). Para isso, clique com o botão direito sobre instância no serviço EC2 e escolha a opção Image > Create image.
+1. Criar uma imagem (AMI) da VM configurada na [etapa anterior](https://github.com/mvneves/Flask-AWS-Example/wiki/Cria%C3%A7%C3%A3o-de-buckets-para-armazenamento-escal%C3%A1vel-no-S3#parte-4-utilizar-o-servi%C3%A7o-s3-via-python). Para isso, clique com o botão direito sobre instância no serviço EC2 e escolha a opção Image and templates > Create image.
 2. Lançar duas instâncias de máquina virtual (uma em cada zona de disponibilidade) a partir da imagem criada
     1. Acessar a opção IMAGES > AMIs no menu lateral do serviço EC2
     2. Selecionar a imagem criada e clicar no botão Launch
